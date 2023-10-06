@@ -9,3 +9,4 @@ df = pd.read_csv('C:/Users/rizwa/Desktop/Rizwan/Projects/HR_Data_Analysis_and_Vi
 
 print(df.head())    # Display the first few rows of the DataFrame
 
+print(df.info())    # Display data types and missing values
