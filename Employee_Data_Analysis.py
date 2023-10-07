@@ -37,3 +37,16 @@ df['Salary Category'] = df['Annual Salary'].apply(assign_Salary_Category)
 
 # Check the first few rows to verify the new column
 print(df[['Annual Salary', 'Salary Category']].head())
+
+#---------------------------------------------------------------------------------------------------
+
+# AGE GROUP :
+
+# Define age groups 
+def assign_age_group(age):
+    if age <= 30:
+        return "Less than 30"
+    elif age <= 40:
+        return "Between 31-40"
+    else:
+        return "Greater than 40"
