@@ -50,3 +50,9 @@ def assign_age_group(age):
         return "Between 31-40"
     else:
         return "Greater than 40"
+    
+# Apply the function to create the "Age Group" column
+df['Age Group'] = df['Age'].apply(assign_age_group)
+
+# Check the first few rows to verify the new column
+print(df[['Age', 'Age Group']].head())
