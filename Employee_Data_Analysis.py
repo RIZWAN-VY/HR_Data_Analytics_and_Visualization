@@ -31,3 +31,9 @@ def assign_Salary_Category(salary):
         return "8LPA - 10LPA"
     else:
         return "Greater than 10 LPA "
+    
+# Apply the function to create the "Salary Category" column
+df['Salary Category'] = df['Annual Salary'].apply(assign_Salary_Category)
+
+# Check the first few rows to verify the new column
+print(df[['Annual Salary', 'Salary Category']].head())
