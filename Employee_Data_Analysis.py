@@ -76,3 +76,21 @@ df['Distance Category'] = df['Distance to Office'].apply(assign_distance_categor
 
 # Check the first few rows to verify the new column
 print(df[['Distance to Office', 'Distance Category']].head())
+
+#---------------------------------------------------------------------------------------------------
+
+# EXPERIENCE LEVEL :
+# Tenure in Company
+
+# Define experience level based on Tenure in Company
+def assign_experience(tenure):
+    if tenure <= 2:
+        return "0-2 Years"
+    elif tenure <= 5:
+        return "2-5 Years"
+    elif tenure <= 10:
+        return "5-10 Years"
+    elif tenure <= 15:
+        return "10-15 Years"
+    else:
+        return "15+ Years"
