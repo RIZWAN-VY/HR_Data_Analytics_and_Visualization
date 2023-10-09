@@ -94,3 +94,9 @@ def assign_experience(tenure):
         return "10-15 Years"
     else:
         return "15+ Years"
+    
+# Apply the function to create the "Experience" column
+df['Experience'] = df['Tenure in Company'].apply(assign_experience)
+
+# Check the first few rows to verify the new column
+print(df[['Tenure in Company', 'Experience']].head())
