@@ -70,3 +70,9 @@ def assign_distance_category(distance):
         return "Between 10-20km"
     else:
         return "Greater than 20km"
+    
+# Apply the function to create the " Distance Category" column
+df['Distance Category'] = df['Distance to Office'].apply(assign_distance_category)
+
+# Check the first few rows to verify the new column
+print(df[['Distance to Office', 'Distance Category']].head())
