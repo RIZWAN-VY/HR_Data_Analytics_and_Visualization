@@ -1,5 +1,6 @@
-#    HR DATA - EMPLOYEE DATA ANALYTICS
-
+'''
+    HR DATA - EMPLOYEE DATA ANALYTICS
+'''
 # Libraries 
 import pandas as pd
 
@@ -56,3 +57,16 @@ df['Age Group'] = df['Age'].apply(assign_age_group)
 
 # Check the first few rows to verify the new column
 print(df[['Age', 'Age Group']].head())
+
+#---------------------------------------------------------------------------------------------------
+
+# DISTANCE CATEGORY :
+
+# Define Distance Category based on distance
+def assign_distance_category(distance):
+    if distance <= 10:
+        return "Less than 10km"
+    elif distance <= 20:
+        return "Between 10-20km"
+    else:
+        return "Greater than 20km"
