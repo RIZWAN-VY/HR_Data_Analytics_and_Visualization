@@ -100,3 +100,8 @@ df['Experience'] = df['Tenure in Company'].apply(assign_experience)
 
 # Check the first few rows to verify the new column
 print(df[['Tenure in Company', 'Experience']].head())
+
+#---------------------------------------------------------------------------------------------------
+
+# changing column name Rating to Performance and creating new column Rating range 1-5
+df.rename(columns={'Rating': 'Performance'}, inplace=True)
