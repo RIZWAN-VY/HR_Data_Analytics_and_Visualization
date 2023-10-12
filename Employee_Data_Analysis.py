@@ -122,3 +122,9 @@ def assign_rating(rating):
         return 1
     else:
         return 0
+    
+# Apply the function to create the "RATING" column
+df['Rating'] = df['Performance'].apply(assign_rating)
+
+# Check the first few rows to verify the new column
+print(df[['Performance', 'Rating']].head())
