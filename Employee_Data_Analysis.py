@@ -105,3 +105,20 @@ print(df[['Tenure in Company', 'Experience']].head())
 
 # changing column name Rating to Performance and creating new column Rating range 1-5
 df.rename(columns={'Rating': 'Performance'}, inplace=True)
+
+# RATING :
+
+# Define Rating based on Performance Rating
+def assign_rating(rating):
+    if rating == 'Very Good':
+        return 5
+    elif rating == 'Good':
+        return 4
+    elif rating == 'Average':
+        return 3
+    elif rating == 'Poor':
+        return 2
+    elif rating == 'Very Poor':
+        return 1
+    else:
+        return 0
