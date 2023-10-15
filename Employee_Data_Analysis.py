@@ -140,3 +140,16 @@ Index(['Name', 'Gender', 'Department', 'Annual Salary', 'Location',
        'Rating'],
       dtype='object')
 '''
+
+#---------------------------------------------------------------------------------------------------
+
+print(df.head())
+
+'''
+                     Name  Gender   Department  Annual Salary   Location  ...       Salary Category        Age Group  Distance Category   Experience Rating
+0           Aarti Panchal  Female          CEO       10000000     Mumbai  ...  Greater than 10 LPA     Between 31-40  Greater than 20km  10-15 Years      5
+1             Aastha Behl  Female        Sales         880500  Bengaluru  ...          8LPA - 10LPA  Greater than 40     Less than 10km    15+ Years      5
+2           Abhinaw Sinha    Male  Engineering         682200  Bengaluru  ...           6LPA - 8LPA     Less than 30    Between 10-20km   5-10 Years      4
+3           Abhishek Dabb    Male        Legal         563700  New Delhi  ...           4LPA - 6LPA    Between 31-40     Less than 10km  10-15 Years      5
+4  Abhishek Kumar Preetam    Male      Support        1070900  New Delhi  ...  Greater than 10 LPA      Less than 30     Less than 10km    2-5 Years      2
+'''
