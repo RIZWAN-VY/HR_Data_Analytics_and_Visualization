@@ -153,3 +153,8 @@ print(df.head())
 3           Abhishek Dabb    Male        Legal         563700  New Delhi  ...           4LPA - 6LPA    Between 31-40     Less than 10km  10-15 Years      5
 4  Abhishek Kumar Preetam    Male      Support        1070900  New Delhi  ...  Greater than 10 LPA      Less than 30     Less than 10km    2-5 Years      2
 '''
+
+#---------------------------------------------------------------------------------------------------
+
+# Save the DataFrame to a CSV file
+df.to_csv('Processed_HR_Data.csv', index=False)
