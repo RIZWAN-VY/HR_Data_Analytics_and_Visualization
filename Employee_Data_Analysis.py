@@ -6,7 +6,7 @@ import pandas as pd
 
 # Loading the data and reading the CSV file
 
-df = pd.read_csv('C:/Users/rizwa/Desktop/Rizwan/Projects/HR_Data_Analysis_and_Visualization/HR_Employee_data_kaggle.csv')
+df = pd.read_csv('C:/Users/rizwa/Desktop/Rizwan/projects/HR_Data_Analysis_and_Visualization/HR_Employee_data_kaggle.csv')
 
 print(df.head())    # Display the first few rows of the DataFrame
 
@@ -128,3 +128,15 @@ df['Rating'] = df['Performance'].apply(assign_rating)
 
 # Check the first few rows to verify the new column
 print(df[['Performance', 'Rating']].head())
+
+#---------------------------------------------------------------------------------------------------
+
+print(df.columns)
+
+'''
+Index(['Name', 'Gender', 'Department', 'Annual Salary', 'Location',
+       'Performance', 'Distance to Office', 'Age', 'Tenure in Company',
+       'Salary Category', 'Age Group', 'Distance Category', 'Experience',
+       'Rating'],
+      dtype='object')
+'''
