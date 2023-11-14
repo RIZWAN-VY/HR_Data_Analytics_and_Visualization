@@ -19,3 +19,8 @@ The project involved several key stages, including data preprocessing, explorato
 * Analyzed gender diversity, visualizing the count of employees by gender.
 * Explored the age distribution of employees, categorizing them into age groups and providing statistical summaries.
 * Visualized employee locations and distance categories through interactive bar charts.
+
+### Technologies and Skills Used:
+* __Programming Language:__ Python
+* __Data Visualization:__ Power BI
+* __Data Analysis Libraries:__ Pandas, Matplotlib, Seaborn
