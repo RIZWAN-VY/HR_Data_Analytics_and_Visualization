@@ -9,3 +9,9 @@ The project involved several key stages, including data preprocessing, explorato
 * Downloaded raw HR data and loaded it into Python for initial exploration.
 * Conducted data cleaning and preprocessing, adding relevant columns such as Salary Category, Distance Category, Age Group, Experience Level, and Performance Rating.
 * Saved the processed data for further analysis.
+
+#### Exploratory Data Analysis and Visualization:
+* Explored the overall distribution of employees, revealing a total of 875 individuals.
+* Analyzed departmental distribution through a bar chart, providing insights into workforce distribution across different departments.
+* Conducted a performance rating analysis, showcasing the majority falling within the 'Average' category.
+* Established a salary category and presented salary distribution, accompanied by key statistics.
