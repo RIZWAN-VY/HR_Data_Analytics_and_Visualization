@@ -3,3 +3,9 @@
 ### Project Description:
 In the HR Data Analytics and Visualization project, I undertook a comprehensive analysis of employee data to derive valuable insights.  
 The project involved several key stages, including data preprocessing, exploratory data analysis, and the creation of an interactive dashboard using Power BI.
+
+### Project Stages:
+#### Data Acquisition and Preprocessing:
+* Downloaded raw HR data and loaded it into Python for initial exploration.
+* Conducted data cleaning and preprocessing, adding relevant columns such as Salary Category, Distance Category, Age Group, Experience Level, and Performance Rating.
+* Saved the processed data for further analysis.
