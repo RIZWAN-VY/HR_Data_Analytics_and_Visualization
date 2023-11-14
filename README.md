@@ -15,3 +15,7 @@ The project involved several key stages, including data preprocessing, explorato
 * Analyzed departmental distribution through a bar chart, providing insights into workforce distribution across different departments.
 * Conducted a performance rating analysis, showcasing the majority falling within the 'Average' category.
 * Established a salary category and presented salary distribution, accompanied by key statistics.
+* Explored the tenure in the company, visualizing the experience levels of employees and providing statistical insights.
+* Analyzed gender diversity, visualizing the count of employees by gender.
+* Explored the age distribution of employees, categorizing them into age groups and providing statistical summaries.
+* Visualized employee locations and distance categories through interactive bar charts.
