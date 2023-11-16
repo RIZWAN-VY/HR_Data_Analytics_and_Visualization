@@ -24,3 +24,8 @@ The project involved several key stages, including data preprocessing, explorato
 * __Programming Language:__ Python
 * __Data Visualization:__ Power BI
 * __Data Analysis Libraries:__ Pandas, Matplotlib, Seaborn
+
+----
+__This project successfully analyzed and visualized HR data to gain valuable insights into the workforce.  
+The project utilized Python for data preparation and exploratory data analysis, and Power BI for interactive data visualization.  
+By leveraging these skills and technologies, the project effectively identified key trends and patterns within the HR data, providing valuable insights for informed decision-making.__
