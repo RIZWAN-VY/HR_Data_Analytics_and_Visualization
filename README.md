@@ -29,3 +29,7 @@ The project involved several key stages, including data preprocessing, explorato
 __This project successfully analyzed and visualized HR data to gain valuable insights into the workforce.  
 The project utilized Python for data preparation and exploratory data analysis, and Power BI for interactive data visualization.  
 By leveraging these skills and technologies, the project effectively identified key trends and patterns within the HR data, providing valuable insights for informed decision-making.__
+
+## Dashboard
+
+![Employee_Data_Dashboard_image](https://github.com/RIZWAN-VY/HR_Data_Analytics_and_Visualization/assets/131337205/b79a2ab6-8aaa-4a5c-bcf7-eec48d5da0d4)
